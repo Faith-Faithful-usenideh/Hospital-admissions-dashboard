@@ -1,11 +1,12 @@
 # Hospital Patient Admissions & Treatment Outcomes
 
 **Capstone project · Speedlink Institute of Technology and Innovation · 2026**
+
 **Tools:** Excel (data cleaning) · Power BI (Power Query, DAX, interactive dashboard) · PowerPoint (final defense)
 
 **My role:** I completed this project independently from start to finish: I cleaned and prepared the data in Excel, wrote the DAX measures, built the 6-page Power BI dashboard, wrote the insights and recommendations, and prepared the final defense presentation.
 
-![Hospital Admissions Dashboard](images/dashboard.png)
+![Hospital Admissions Dashboard](dashboard.png)
 
 ---
 
@@ -63,4 +64,4 @@ Readmission_Rate  = DIVIDE(CALCULATE(COUNTROWS(PatientData), PatientData[Readmis
 - `Hospital_Admissions_Data.xlsx` – cleaned dataset with KPI summary sheet
 - `Hospital_Admissions_Dashboard.pbix` – Power BI dashboard (6 pages)
 - `Hospital_Admissions_Presentation.pptx` – final defense slides
-- `images/dashboard.png` – dashboard screenshot
+- `dashboard.png` – dashboard screenshot
